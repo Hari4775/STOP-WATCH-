@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="stop.css"></link>
+</head>
+<body class="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-300">
+
+ 
+<div id="main">
+    <div id="main-min">00</div>
+    <div id="main-second">00</div>
+    <div id="milli-second">00</div>
+
+</div>
+   
+
+
+
+  
+        <div class="controls inline-block mx-30 ">
+            <img src="stop.png" class="mx-30" onclick=" stop()">
+            <img  src="start.png" style="width: 120px;height: 120px;" onclick="start()">
+            <img  src="reset.png" onclick=" reset()">
+
+        </div>
+    
+
+
+
+    <script  src="stop.js"></script>
+</body>
+</html>
